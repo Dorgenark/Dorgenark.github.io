@@ -1,11 +1,6 @@
 body {
-  background: #101010;
-  overflow: hidden;
-}
-
-.content {
-  background: url(../img/background.svg);
-  background-size: 100.2% 130%;
+  background: url(../img/background.svg), no-repeat;
+  background-size: 100% 1600%;
 }
 
 .name {
@@ -14,9 +9,4 @@ body {
 
 .about, .contact, .menu b {
   float: right;
-}
-
-
-.test {
-  height: 900px;
 }
