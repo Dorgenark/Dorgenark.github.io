@@ -1,0 +1,22 @@
+body {
+  background: #101010;
+  overflow: hidden;
+}
+
+.content {
+  background: url(../img/background.svg);
+  background-size: 100.2% 130%;
+}
+
+.name {
+  float: left;
+}
+
+.about, .contact, .menu b {
+  float: right;
+}
+
+
+.test {
+  height: 750px;
+}
