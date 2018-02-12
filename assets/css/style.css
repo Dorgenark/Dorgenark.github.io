@@ -34,7 +34,7 @@ body {
     font-size: 140%; }
 
 .projet {
-  margin: 2% 16%;
+  margin: 2% 10%;
   background: #F2F2F2;
   border-radius: 3px;
   border: 0.5px solid #878787; }
@@ -47,6 +47,9 @@ body {
 
 .top {
   margin-top: 70px; }
+
+.preview {
+  padding-top: 15px; }
 
 .text {
   padding-bottom: 30px; }
