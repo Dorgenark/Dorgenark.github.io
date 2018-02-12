@@ -1,11 +1,30 @@
 body {
-  background: url(../img/background.svg), no-repeat;
-  background-size: 100% 1600%; }
+  background: url(../img/background.svg);
+  background-size: 100.2% 2000%;
+  overflow: hidden; }
 
 .name {
-  float: left; }
+  float: left;
+  color: #193B3B;
+  text-decoration: none;
+  font-size: 140%;
+  padding: 5px;
+  margin-top: -3px;
+  background-color: #8EBDBD;
+  border: 0.5px solid #454545;
+  border-radius: 2.5px; }
+
+.name:hover {
+  color: #255757;
+  text-decoration: none; }
 
 .about, .contact, .menu b {
-  float: right; }
+  float: right;
+  color: #191919;
+  text-decoration: none; }
+
+.about:hover, .contact:hover {
+  color: #454545;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
