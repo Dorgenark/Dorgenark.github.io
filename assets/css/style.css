@@ -1,11 +1,11 @@
 body {
-  background: url(../img/background.svg);
-  background-size: 100.2% 2000%;
+  background: url(../img/background.svg) no-repeat center top fixed;
+  background-size: 100.4% 100.2%;
   overflow: hidden; }
 
 .name {
   float: left;
-  color: #193B3B;
+  color: #132E2E;
   text-decoration: none;
   font-size: 140%;
   padding: 5px;
