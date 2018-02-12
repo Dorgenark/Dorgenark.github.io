@@ -1,7 +1,7 @@
 body {
   background: url(../img/background.svg) no-repeat center top fixed;
   background-size: 100.4% 100.2%;
-  overflow: hidden;
+  font-family: 'Oxygen', sans-serif;
 }
 
 .name {
@@ -9,8 +9,8 @@ body {
   color: #132E2E;
   text-decoration: none;
   font-size: 140%;
-  padding: 5px;
-  margin-top: -3px;
+  padding: 4px;
+  margin-top: -7px;
   background-color: #8EBDBD;
   border: 0.5px solid #454545;
   border-radius: 2.5px;
@@ -30,4 +30,43 @@ body {
 .about:hover, .contact:hover {
 color: #454545;
 text-decoration: none;
+}
+
+.portfolio {
+  margin-top: 0;
+  margin-left: 3px;
+  p {
+    font-size: 140%;
+  }
+}
+
+.projet {
+  margin: 2% 16%;
+  background: #F2F2F2;
+  border-radius: 3px;
+  border: 0.5px solid #878787;
+  p {
+    margin: 5px;
+  }
+}
+
+.projet-titre {
+  padding: 20px;
+  font-size: 150%;
+}
+
+.top {
+  margin-top: 70px;
+}
+
+.text {
+  padding-bottom: 30px;
+}
+
+.img-fluid {
+  max-width: 120px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 0.5px solid #878787;
+  margin-left: 13.5px;
 }
