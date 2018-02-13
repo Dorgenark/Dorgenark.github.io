@@ -31,13 +31,17 @@ body {
   margin-top: 0;
   margin-left: 3px; }
   .portfolio p {
-    font-size: 140%; }
+    font-size: 150%; }
 
-.projet {
-  margin: 2% 19%;
+.projetdiv {
+  margin: 4% 13%;
   background: #F2F2F2;
   border-radius: 3px;
-  border: 0.5px solid #878787; }
+  border: 0.5px solid #ABABAB; }
+
+.projet {
+  margin: 2% 9%;
+  padding-bottom: 25px; }
   .projet p {
     margin: 5px; }
 
