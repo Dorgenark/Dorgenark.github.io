@@ -5,65 +5,52 @@ body {
 
 .name {
   float: left;
-  color: #132E2E;
+  color: #070A1C;
   text-decoration: none;
-  font-size: 140%;
-  padding: 4px;
+  font-size: 145%;
+  padding: 6px;
   margin-top: -7px;
-  background-color: #71BDBD;
+  background-color: #97AD0C;
   border: 0.5px solid #454545;
   border-radius: 2.5px; }
 
 .name:hover {
-  color: #255757;
+  color: #3F4005;
   text-decoration: none; }
 
 .about, .contact, .menu b {
   float: right;
-  color: #191919;
+  color: #B2B500;
   text-decoration: none; }
 
 .about:hover, .contact:hover {
-  color: #454545;
+  color: #C9CC11;
   text-decoration: none; }
 
 .portfolio {
+  color: #B2B500;
   margin-top: 0;
   margin-left: 3px; }
   .portfolio p {
     font-size: 150%; }
 
 .projetdiv {
-  margin: 4% 13%;
-  margin-bottom: 2.5%;
+  margin-top: 35px;
   background: #F7F7F7;
-  border-radius: 2px;
+  border-radius: 4.5px;
   border: 0.7px solid #9E9E9E; }
 
 .projet {
-  margin: 2% 10%;
-  padding-bottom: 25px; }
-  .projet p {
-    margin: 5px; }
+  padding: 25px; }
 
 .projet-titre {
-  padding: 20px;
   font-size: 150%; }
 
-.top {
-  margin-top: 70px; }
-
-.preview {
-  padding-top: 15px; }
-
-.text {
-  padding-bottom: 30px; }
-
-.img-fluid {
-  max-width: 120px;
-  margin-bottom: 10px;
+.photo {
   border-radius: 3px;
-  border: 0.5px solid #878787;
-  margin-left: 8px; }
+  border: 0.5px solid #878787; }
+
+.texte {
+  padding-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */
