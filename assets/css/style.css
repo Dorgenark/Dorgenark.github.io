@@ -41,16 +41,38 @@ body {
   border: 0.7px solid #9E9E9E; }
 
 .projet {
-  padding: 25px; }
+  padding: 40px; }
 
 .projet-titre {
   font-size: 150%; }
+  .projet-titre a {
+    text-decoration: none;
+    color: #070A1C; }
+  .projet-titre a:hover {
+    color: #3F4005; }
 
 .photo {
   border-radius: 3px;
   border: 0.5px solid #878787; }
 
 .texte {
-  padding-top: 50px; }
+  float: left;
+  padding-top: 80px;
+  line-height: 1.8; }
+  .texte strong {
+    font-size: 140%;
+    margin-left: 10px; }
+  .texte p {
+    padding: 15px; }
+
+.repolink {
+  font-size: 110%;
+  padding: 20px;
+  text-decoration: none;
+  color: #070A1C; }
+
+.repolink:hover {
+  text-decoration: none;
+  color: #3F4005; }
 
 /*# sourceMappingURL=style.css.map */
