@@ -36,6 +36,7 @@ body {
 
 .projetdiv {
   margin-top: 35px;
+  margin-bottom: 15px;
   background: #F7F7F7;
   border-radius: 4.5px;
   border: 0.7px solid #9E9E9E; }
@@ -53,12 +54,14 @@ body {
 
 .photo {
   border-radius: 3px;
-  border: 0.5px solid #878787; }
+  border: 0.5px solid #878787;
+  opacity: 0.9; }
 
 .texte {
   float: left;
   padding-top: 80px;
-  line-height: 1.8; }
+  line-height: 1.8;
+  opacity: 0.85; }
   .texte strong {
     font-size: 140%;
     margin-left: 10px; }
