@@ -57,6 +57,9 @@ body {
   border: 0.5px solid #878787;
   opacity: 0.9; }
 
+.photo:hover {
+  opacity: 1; }
+
 .texte {
   float: left;
   padding-top: 80px;
