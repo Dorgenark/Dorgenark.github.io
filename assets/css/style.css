@@ -18,10 +18,6 @@ h1 {
   border: 0.5px solid #454545;
   border-radius: 2.5px; }
 
-.name:hover {
-  color: #3F4005;
-  text-decoration: none; }
-
 .about, .contact, .menu b {
   float: right;
   color: #B2B500;
