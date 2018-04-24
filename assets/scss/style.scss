@@ -23,7 +23,7 @@ h1 {
 
 .about, .contact, .menu b {
   float: right;
-  color: #B2B500;
+  color: #B7BA00;
   text-decoration: none;
 }
 
@@ -33,7 +33,7 @@ text-decoration: none;
 }
 
 .portfolio {
-  color: #B2B500;
+  color: #B7BA00;
   margin-top: 0;
   margin-left: 3px;
   p {
@@ -51,7 +51,7 @@ text-decoration: none;
 
 .projet {
   padding: 40px;
-  .col-lg-4 p{
+  .col-lg-5 p{
     margin-left: 10px;
   }
 }
@@ -125,6 +125,9 @@ text-decoration: none;
     font-size: 110%;
     text-align: center;
   }
+}
+@media only screen and (max-width: 445px){
+  .popup {margin-top: 20px}
 }
     
 .cancel {

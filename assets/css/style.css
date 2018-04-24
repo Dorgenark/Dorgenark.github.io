@@ -20,7 +20,7 @@ h1 {
 
 .about, .contact, .menu b {
   float: right;
-  color: #B2B500;
+  color: #B7BA00;
   text-decoration: none; }
 
 .about:hover, .contact:hover {
@@ -28,7 +28,7 @@ h1 {
   text-decoration: none; }
 
 .portfolio {
-  color: #B2B500;
+  color: #B7BA00;
   margin-top: 0;
   margin-left: 3px; }
   .portfolio p {
@@ -43,7 +43,7 @@ h1 {
 
 .projet {
   padding: 40px; }
-  .projet .col-lg-4 p {
+  .projet .col-lg-5 p {
     margin-left: 10px; }
 
 .projet-titre {
@@ -104,6 +104,9 @@ h1 {
     font-size: 110%;
     text-align: center; }
 
+@media only screen and (max-width: 445px) {
+  .popup {
+    margin-top: 20px; } }
 .cancel {
   z-index: 10;
   display: table;
