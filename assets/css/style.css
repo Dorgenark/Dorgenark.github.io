@@ -139,7 +139,9 @@ h1 {
   z-index: 6;
   position: fixed;
   bottom: 20px;
-  right: 24px; }
+  right: 24px;
+  height: 50px;
+  width: 50px; }
   .btn-top a {
     text-align: center;
     text-transform: uppercase;
