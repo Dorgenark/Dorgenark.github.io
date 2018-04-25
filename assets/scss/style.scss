@@ -167,12 +167,13 @@ text-decoration: none;
   a {
     text-align: center;
     text-transform: uppercase;
-    font-size: 180%;
+    font-size: 175%;
     outline: none;
     color: #F7F7F7;
     background-color: #757D69;
-    padding: 6px 13px;
+    border: 0.5px solid #696969;
     border-radius: 50%;
+    padding: 6px 13px;
   }
   a:hover {
     text-decoration: none;
