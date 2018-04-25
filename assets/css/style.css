@@ -9,12 +9,12 @@ h1 {
 
 .name {
   float: left;
-  color: #070A1C;
   text-decoration: none;
   font-size: 145%;
   padding: 6px;
   margin-top: -7px;
-  background-color: #97AD0C;
+  color: #070A1C;
+  background-color: #A2BA0D;
   border: 0.5px solid #454545;
   border-radius: 2.5px; }
 
@@ -57,10 +57,20 @@ h1 {
 .photo {
   border-radius: 3px;
   border: 0.5px solid #878787;
-  opacity: 0.9; }
+  opacity: 0.88;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
 
 .photo:hover {
-  opacity: 1; }
+  opacity: 1;
+  -webkit-transform: scale(1.025);
+  -moz-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  -o-transform: scale(1.025);
+  transform: scale(1.025); }
 
 .texte {
   float: left;
@@ -84,7 +94,7 @@ h1 {
   color: #3F4005; }
 
 .popup {
-  z-index: 10;
+  z-index: 5;
   position: fixed;
   top: 32px;
   right: 15px;
@@ -93,7 +103,7 @@ h1 {
   font-size: 13px;
   padding: 20px;
   color: #070A1C;
-  background-color: #97AD0C;
+  background-color: #A2BA0D;
   border: 0.5px solid #454545;
   border-radius: 2.5px;
   margin: 0 auto;
@@ -108,7 +118,7 @@ h1 {
   .popup {
     margin-top: 20px; } }
 .cancel {
-  z-index: 10;
+  z-index: 5;
   display: table;
   margin: 0 auto;
   text-align: center;
@@ -117,12 +127,29 @@ h1 {
   padding: 3px 20px;
   font-size: 11px;
   color: #070A1C;
-  background-color: #8A9E0B;
+  background-color: #97AD0C;
   border: 0.5px solid #454545;
   border-radius: 3px;
   cursor: pointer; }
 
 .cancel:hover {
   background-color: #8EA30B; }
+
+.btn-top {
+  z-index: 6;
+  position: fixed;
+  bottom: 20px;
+  right: 30px; }
+  .btn-top a {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 180%;
+    outline: none;
+    color: #F7F7F7;
+    background-color: #757D69;
+    padding: 6px 13px;
+    border-radius: 50%; }
+  .btn-top a:hover {
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
