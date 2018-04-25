@@ -139,9 +139,7 @@ h1 {
   z-index: 6;
   position: fixed;
   bottom: 20px;
-  right: 24px;
-  height: 50px;
-  width: 50px; }
+  right: 24px; }
   .btn-top a {
     text-align: center;
     text-transform: uppercase;
@@ -150,7 +148,11 @@ h1 {
     color: #F7F7F7;
     background-color: #757D69;
     border: 0.5px solid #696969;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     padding: 6px 13px; }
   .btn-top a:hover {
     text-decoration: none; }
