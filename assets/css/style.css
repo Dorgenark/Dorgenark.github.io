@@ -21,10 +21,8 @@ h1 {
 .about, .contact, .menu b {
   float: right;
   color: #B7BA00;
-  text-decoration: none; }
-
-.about, .contact {
-  font-size: 110%; }
+  text-decoration: none;
+  font-size: 108%; }
 
 .about:hover, .contact:hover {
   color: #C9CC11;
