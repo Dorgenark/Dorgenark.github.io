@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 30px 35px;
   color: #3F4005;
 }
 
@@ -25,6 +25,10 @@ h1 {
   float: right;
   color: #B7BA00;
   text-decoration: none;
+}
+
+.about, .contact {
+  font-size: 104%;
 }
 
 .about:hover, .contact:hover {
@@ -137,7 +141,7 @@ text-decoration: none;
   }
 }
 @media only screen and (max-width: 445px){
-  .popup {margin-top: 20px}
+  .popup {margin-top: 22px}
 }
     
 .cancel {

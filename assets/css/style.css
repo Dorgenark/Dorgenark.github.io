@@ -4,7 +4,7 @@ body {
   font-family: 'Oxygen', sans-serif; }
 
 h1 {
-  margin: 30px;
+  margin: 30px 35px;
   color: #3F4005; }
 
 .name {
@@ -22,6 +22,9 @@ h1 {
   float: right;
   color: #B7BA00;
   text-decoration: none; }
+
+.about, .contact {
+  font-size: 104%; }
 
 .about:hover, .contact:hover {
   color: #C9CC11;
@@ -116,7 +119,7 @@ h1 {
 
 @media only screen and (max-width: 445px) {
   .popup {
-    margin-top: 20px; } }
+    margin-top: 22px; } }
 .cancel {
   z-index: 5;
   display: table;
