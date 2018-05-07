@@ -147,12 +147,12 @@ h1 {
   .btn-top a {
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 28px;
     outline: none;
     color: #403D07;
     background-color: #8EA30B;
     border: 0.5px solid #788A17;
-    padding: 3px 9px;
+    padding: 4px 10px;
     border-radius: 4px; }
   .btn-top a:hover {
     text-decoration: none; }
