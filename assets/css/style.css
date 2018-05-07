@@ -21,8 +21,7 @@ h1 {
 .about, .contact, .menu b {
   float: right;
   color: #B7BA00;
-  text-decoration: none;
-  font-size: 108%; }
+  text-decoration: none; }
 
 .about:hover, .contact:hover {
   color: #C9CC11;
@@ -51,7 +50,8 @@ h1 {
   font-size: 150%; }
   .projet-titre a {
     text-decoration: none;
-    color: #070A1C; }
+    color: #070A1C;
+    border-bottom: 1.5px dashed #ACB89A; }
   .projet-titre a:hover {
     color: #3F4005; }
 
@@ -88,7 +88,9 @@ h1 {
   font-size: 110%;
   padding: 20px;
   text-decoration: none;
-  color: #070A1C; }
+  color: #070A1C;
+  border: 0.5px solid #C2CFAE;
+  border-radius: 2px; }
 
 .repolink:hover {
   text-decoration: none;
@@ -149,8 +151,8 @@ h1 {
     color: #F7F7F7;
     background-color: #757D69;
     border: 0.5px solid #696969;
-    padding: 6px 13px;
-    border-radius: 50%; }
+    padding: 4px 10px;
+    border-radius: 4px; }
   .btn-top a:hover {
     text-decoration: none; }
 
