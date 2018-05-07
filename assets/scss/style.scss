@@ -107,7 +107,7 @@ text-decoration: none;
   padding: 20px;
   text-decoration: none;
   color: #070A1C;
-  border: 0.5px solid #C2CFAE;
+  border: 0.5px solid #CEDBB8;
   border-radius: 2px;
 }
 
@@ -119,18 +119,18 @@ text-decoration: none;
 .popup {
   z-index: 5;
   position: fixed;
-  top: 32px;
+  top: 33px;
   right: 14px;  
   width: 200px;
   height: auto;
   font-size: 13px;
-  padding: 20px;
+  padding: 17px 20px;
   color: #070A1C;
   background-color: #A2BA15;
   border: 0.5px solid #454545;
   border-radius: 2.5px;
   margin: 0 auto;
-  text-align: justify;
+  text-align: left;
   br {
     margin-bottom: 5px;
   }
@@ -173,9 +173,9 @@ text-decoration: none;
     text-transform: uppercase;
     font-size: 175%;
     outline: none;
-    color: #F7F7F7;
-    background-color: #757D69;
-    border: 0.5px solid #696969;
+    color: #474408;
+    background-color: #8EA30B;
+    border: 0.5px solid #788A17;
     padding: 4px 10px;
     border-radius: 4px;
   }
