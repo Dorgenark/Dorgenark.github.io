@@ -1,12 +1,12 @@
 body {
-  background: url(../img/background.svg) no-repeat center top fixed;
+  background: url(../img/background2.svg) no-repeat center top fixed;
   background-size: 100.4% 100.2%;
   font-family: 'Oxygen', sans-serif;
 }
 
 h1 {
   margin: 30px 35px;
-  color: #3F4005;
+  color: #3F4033;
 }
 
 .name {
@@ -16,25 +16,25 @@ h1 {
   padding: 6px;
   margin-top: -7px;
   color: #070A1C;
-  background-color: #A2BA0D;
+  background-color: #A2BA3C;
   border: 0.5px solid #454545;
   border-radius: 2.5px;
 }
 
 .about, .contact, .menu b {
   float: right;
-  color: #B7BA00;
+  color: #535E28;
   text-decoration: none;
 }
 
 .about:hover, .contact:hover {
-color: #C9CC11;
+color: #8C8F00;
 text-decoration: none;
 }
 
 .portfolio {
-  color: #B7BA00;
-  margin-top: 0;
+  color: #787A00;
+  margin-top: -2px;
   margin-left: 3px;
   p {
     font-size: 150%;
@@ -121,12 +121,12 @@ text-decoration: none;
   position: fixed;
   top: 33px;
   right: 14px;  
-  width: 200px;
+  width: 215px;
   height: auto;
   font-size: 13px;
   padding: 17px 20px;
   color: #070A1C;
-  background-color: #A2BA15;
+  background-color: #A2BA3C;
   border: 0.5px solid #454545;
   border-radius: 2.5px;
   margin: 0 auto;
@@ -153,13 +153,13 @@ text-decoration: none;
   padding: 3px 20px;
   font-size: 11px;
   color: #070A1C;
-  background-color: #97AD0C;
+  background-color: #8EA30B;
   border: 0.5px solid #454545;
   border-radius: 3px;
   cursor: pointer;
 }
 .cancel:hover {
-  background-color: #8EA30B;
+  background-color: #97AD0C;
 }
 
 .btn-top {
@@ -174,9 +174,9 @@ text-decoration: none;
     font-size: 28px;
     outline: none;
     color: #403D07;
-    background-color: #8EA30B;
+    background-color: #A2BA3C;
     border: 0.5px solid #788A17;
-    padding: 4px 10px;
+    padding: 5px 16px;
     border-radius: 4px;
   }
   a:hover {
