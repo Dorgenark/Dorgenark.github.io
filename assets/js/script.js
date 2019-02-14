@@ -17,7 +17,7 @@ function closePopup() {
 // BACK TO TOP
 // Scroll detection
 window.addEventListener("scroll", function() { 
-   if(window.scrollY > 380) {
+   if(window.scrollY > 350) {
       $('.btn-top').fadeIn(300);
    }
    else {

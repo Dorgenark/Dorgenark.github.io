@@ -1,52 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: url(../img/background2.svg) no-repeat center top fixed;
   background-size: 100.4% 100.2%;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-  margin: 30px 35px;
-  color: #3F4033;
+  margin: 45px 35px 20px 35px;
+  color: #6A88A1;
+  text-align: center;
 }
 
 .name {
   float: left;
   text-decoration: none;
-  font-size: 145%;
-  padding: 6px;
-  margin-top: -7px;
-  color: #070A1C;
-  background-color: #A2BA3C;
-  border: 0.5px solid #454545;
-  border-radius: 2.5px;
+  font-size: 36px;
+  padding: 6px 9px;
+  margin-top: -8px;
+  color: #1F2326;
+  background-color: #81A5C4;
+  border-radius: 5px;
 }
 
 .about, .contact, .menu b {
+  font-size: 20px;
   float: right;
-  color: #535E28;
+  color: #6A88A1;
   text-decoration: none;
 }
 
 .about:hover, .contact:hover {
-color: #8C8F00;
+color: #7898B5;
 text-decoration: none;
 }
 
-.portfolio {
-  color: #787A00;
-  margin-top: -2px;
-  margin-left: 3px;
-  p {
-    font-size: 150%;
-  }
-}
-
 .projetdiv {
-  margin-top: 35px;
+  margin-top: 45px;
   margin-bottom: 15px;
-  background: #F7F7F7;
-  border-radius: 3px;
-  border: 0.7px solid #9E9E9E;
+  background: #F6F7F8;
+  border-radius: 4px;
+  border: 1.5px dotted #91B9DC;
 }
 
 .projet {
@@ -61,16 +59,16 @@ text-decoration: none;
   a {
     text-decoration: none;
     color: #070A1C;
-    border-bottom: 1.5px dashed #ACB89A;
+    border-bottom: 1.5px dashed #91B9DC;
   }
   a:hover {
-    color: #3F4005;
+    color: #81A5C4;
   }
 }
 
 .photo {
-  border-radius: 2px;
-  border: 0.5px solid #878787;
+  border-radius: 2.5px;
+  border: 1px solid #F6F7F8;
   opacity: 0.88;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -93,8 +91,9 @@ text-decoration: none;
   padding-top: 80px;
   line-height: 1.8;
   opacity: 0.85;
+  font-size: 17px;
   strong {
-    font-size: 140%;
+    font-size: 28px;
     margin-left: 10px;
   }
   p {
@@ -107,35 +106,34 @@ text-decoration: none;
   padding: 20px;
   text-decoration: none;
   color: #070A1C;
-  border: 0.5px solid #CEDBB8;
+  border: 0.5px solid #91B9DC;
   border-radius: 2px;
 }
 
 .repolink:hover {
   text-decoration: none;
-  color: #3F4005;
+  color: #81A5C4;
 }
 
 .popup {
   z-index: 5;
   position: fixed;
-  top: 33px;
-  right: 14px;  
-  width: 215px;
+  top: 35px;
+  right: 10px;  
+  width: 230px;
   height: auto;
-  font-size: 13px;
+  font-size: 14px;
   padding: 17px 20px;
-  color: #070A1C;
-  background-color: #A2BA3C;
-  border: 0.5px solid #454545;
-  border-radius: 2.5px;
+  color: #1F2326;
+  background-color: #88AECF;
+  border-radius: 3px;
   margin: 0 auto;
   text-align: left;
   br {
     margin-bottom: 5px;
   }
   .popup-email {
-    font-size: 110%;
+    font-size: 14px;
     text-align: center;
   }
 }
@@ -148,18 +146,16 @@ text-decoration: none;
   display: table;
   margin: 0 auto;
   text-align: center;
-  margin-top: 20px;
-  bottom: 5px;
-  padding: 3px 20px;
-  font-size: 11px;
-  color: #070A1C;
-  background-color: #8EA30B;
-  border: 0.5px solid #454545;
-  border-radius: 3px;
+  margin-top: 15px;
+  padding: 3px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #343B40;
+  border-radius: 20px;
   cursor: pointer;
 }
 .cancel:hover {
-  background-color: #97AD0C;
+  background-color: #7596B2;
 }
 
 .btn-top {
@@ -169,15 +165,17 @@ text-decoration: none;
   right: 24px;
   min-width: 15px;
   a {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 32px;
+    font-weight: bolder;
     outline: none;
-    color: #403D07;
-    background-color: #A2BA3C;
-    border: 0.5px solid #788A17;
-    padding: 5px 16px;
-    border-radius: 4px;
+    color: #F2F8FC;
+    background-color: #7190AB;
+    padding: 3.5px 20px;
+    border-radius: 50%;
   }
   a:hover {
     text-decoration: none;
